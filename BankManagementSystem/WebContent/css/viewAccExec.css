@@ -1,0 +1,19 @@
+@charset "ISO-8859-1";
+
+.page-title {
+	text-align: center;
+}
+
+.left-customer {
+	border: 1px solid black;
+	float: left;
+	width: 250px;
+}
+
+.right-accounts {
+	display: inline-block;
+}
+
+.back-button {
+	color: black;
+}

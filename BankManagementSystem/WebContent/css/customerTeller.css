@@ -1,0 +1,55 @@
+@charset "ISO-8859-1";
+
+table, th, td {
+	padding: 20px;
+	border: 2px solid black;
+	border-collapse: collapse;
+}
+
+h1 {
+	text-align: center;
+}
+
+h2 {
+	text-align: center;
+}
+
+#page-container {
+	position: relative;
+	min-height: 100vh;
+}
+
+footer {
+	position: absolute;
+	bottom: 0;
+	background-color: #1E90FF;
+	color: white;
+	height: 30px;
+	width: 100%;
+	margin-top: 50px;
+}
+
+#wrapper {
+	
+}
+
+#customerdiv {
+	float: left;
+	width: 250px;
+	height: 400px;
+	margin-right: 100px;
+	margin-left: 50px;
+	margin-bottom: 50px;
+	border: 1px solid black;
+	padding: 50px;
+}
+
+#tablediv {
+	display: inline-block;
+	width: 120px;
+	height: 120px;
+}
+
+input[type=text], select {
+	display: block;
+}
